@@ -15,6 +15,6 @@ For more detailed instructions on getting Road Runner setup in your own project,
 ## Documentation
 
 Check out the new [online quickstart documentation](https://acme-robotics.gitbook.io/road-runner/quickstart/introduction).
-Also check out [LearnRoadRunner](https://learnroadrunner.com/), a great resource for learning how to use RoadRunner.
+Also check out [LearnRoadRunner](https://learnroadrunner.com/), a great resource for learning how to use Road Runner.
 
 FTCLib docs: https://docs.ftclib.org/ftclib/v/v2.0.0/
