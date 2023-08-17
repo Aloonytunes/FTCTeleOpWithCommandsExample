@@ -13,9 +13,9 @@ public class DriveSubsystem extends SubsystemBase {
 
     private final MecanumDrive robot;
     public MotorEx leftBack, leftFront, rightBack, rightFront;
-    public DriveSubsystem(MotorEx leftBack, MotorEx leftfront, MotorEx rightBack, MotorEx rightFront){
+    public DriveSubsystem(MotorEx leftFront, MotorEx rightFront, MotorEx leftBack, MotorEx rightBack){
         this.leftBack = leftBack;
-        this.leftFront = leftfront;
+        this.leftFront = leftFront;
         this.rightBack = rightBack;
         this.rightFront = rightFront;
         robot = new MecanumDrive(leftFront, rightFront, leftBack, rightBack);
