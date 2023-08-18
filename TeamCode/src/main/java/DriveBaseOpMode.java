@@ -15,12 +15,10 @@ public class DriveBaseOpMode extends CommandOpMode {
      */
     @Override
     public void initialize() {
-        fL = new MotorEx(hardwareMap, "leftFront");
-        fR = new MotorEx(hardwareMap, "rightFront");
-        bL = new MotorEx(hardwareMap, "leftBack");
-        bR = new MotorEx(hardwareMap, "rightBack");
-        bR.setInverted(true);
-        bL.setInverted(false);
+        fL = new MotorEx(hardwareMap, "frontLeft");
+        fR = new MotorEx(hardwareMap, "frontRight");
+        bL = new MotorEx(hardwareMap, "backLeft");
+        bR = new MotorEx(hardwareMap, "backRight");
         drive = new DriveSubsystem(fL, fR, bL, bR);
         gamepadEx1 = new GamepadEx(gamepad1);
     }
